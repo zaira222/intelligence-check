@@ -1,0 +1,97 @@
+/* Global */
+* {
+ margin: 0;
+ margin: 0;    
+}
+
+/* applies to the body*/
+body {
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    float: center;
+}
+/*applies to the header */
+header {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    top: 0;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;  
+}
+
+header h1 {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    float: center;
+    margin: 80px 240px;
+    padding: 150px;
+    position: relative;
+    flex: wrap;
+    display: flex;
+    
+}
+header nav {
+    margin: -570px -380px 200px -220px;
+    padding: 95px; 
+    width: 110%;
+    
+}
+
+header nav ul {
+   list-style-type: none; 
+   display: flex;
+   flex: wrap;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+
+   
+}
+
+header nav ul li {
+    padding: 0px 150px;
+    display: inline-block;
+    list-style-type: none;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header nav ul li a {
+    display: block;   
+}
+
+/* applies to the section */
+section {
+    font-size: 13px;
+    font-weight: bolder;
+    float: center;
+}
+
+
+
+.description {
+        margin: -220px 350px;
+        
+}
+
+.description p {
+    text-align: center;
+}
+
+#start-quiz {
+    margin: 15px 250px;
+    background-color: rgb(20, 20, 93);
+    border-color: rgb(20, 20, 93);
+    color: white;
+    border-radius: 10%;
+}
