@@ -64,7 +64,7 @@ header nav ul {
 }
 
 header nav ul li {
-    padding: 0px 150px;
+    padding: 10px 150px;
     display: inline-block;
     list-style-type: none;
     font-size: 15px;
@@ -146,7 +146,7 @@ section {
 
     .description div {
         width: 70%;
-        margin: 10px -20px 50px -150px;
+        margin: 10px -20px 50px -120px;
     }
     #start {
         width: 100%;
@@ -215,7 +215,7 @@ section {
         width: 70%;
         float: center;
         text-align: center;
-        margin: 10px -180px;
+        margin: 30px -160px -30px -170px;
     }
 
     #start {
