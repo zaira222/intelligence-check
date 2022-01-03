@@ -10,6 +10,7 @@ body {
     font-family:'Courier New', Courier, monospace;
     font-size: 20px;
     float: center;
+    width: 100%;
 }
 /*applies to the header */
 header {
@@ -18,6 +19,7 @@ header {
     flex-wrap: wrap;
     margin: 0px;
     top: 0;
+    
     
 }
 
@@ -37,12 +39,15 @@ header h1 {
     position: relative;
     flex: wrap;
     display: flex;
+    width: 50%;
     
 }
 header nav {
     margin: -570px -380px 200px -220px;
     padding: 95px; 
     width: 110%;
+    position: sticky;
+    position: -webkit-sticky;
     
 }
 
@@ -64,6 +69,7 @@ header nav ul li {
     list-style-type: none;
     font-size: 15px;
     font-family: 'Courier New', Courier, monospace;
+    width: 100%;
 }
 
 header nav ul li a {
@@ -75,6 +81,8 @@ section {
     font-size: 13px;
     font-weight: bolder;
     float: center;
+    text-align: center;
+  
 }
 
 
@@ -88,10 +96,137 @@ section {
     text-align: center;
 }
 
-#start-quiz {
-    margin: 15px 250px;
-    background-color: rgb(20, 20, 93);
-    border-color: rgb(20, 20, 93);
-    color: white;
-    border-radius: 10%;
+.description div {
+    margin: 0px -100px;
+    cursor: pointer;
+}
+
+#start {
+    background-color: blue;
+    cursor: pointer;
+    border: black;
+    color: black;
+    
+}
+ .Btn {
+    margin: 70px  240px 155px 240px;
+    cursor: pointer;
+    border: 3px;
+    width: 100%;
+    padding: 5px;
+}
+
+.Btn:hover {
+
+    color: black;
+}
+
+
+
+#submit {
+    margin: 225px 100px 180px 350px;
+}
+@media screen and (max-width: 980px) {
+    header {
+        width: 100%;
+        float: center;
+    }
+
+    header h1 {
+        font-size: 25px;
+        width: 90%;
+        float: center;
+    }
+    .description {
+        width: 50%;
+    }
+    .description p {
+        width: 50%;
+    }
+
+    .description div {
+        width: 70%;
+        margin: 10px -20px 50px -150px;
+    }
+    #start {
+        width: 100%;
+        float: center;
+        margin: 16px -15px;
+    
+    }
+
+    .Btn {
+        margin: -20px 50px;
+        width: 30%;
+       
+    }
+
+    #start {
+        cursor: pointer;
+    }
+
+ 
+
+
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 25px;
+        width: 80%;
+        text-align: center;
+    }
+
+
+    .description p {
+        margin: 10px 0px 0px -20px;
+        width: 80%;
+    }
+    .description div {
+        width: 50%;
+        margin: 10px -40px 50px -185px;
+    }
+    #start {
+        width: 80%;
+        margin: -200px 250px;
+
+    }
+    .Btn {
+        margin: -20px -160px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    header {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 25px;
+        width: 80%;
+        margin: 40px;
+    }
+
+    .description p {
+        width: 70%;
+        float: center;
+        text-align: center;
+        margin: 10px -180px;
+    }
+
+    #start {
+        width: 100%;
+        margin: -50px -150px 300px -80px;
+
+    }
+    
+    .Btn {
+        margin: -55px;
+        width: 250%;
+    }
+    
 }
